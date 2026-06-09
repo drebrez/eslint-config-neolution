@@ -5,7 +5,10 @@ import { FlatCompat } from "@eslint/eslintrc";
 import defaults from "./providers/default.js";
 import esLintRules from "./providers/eslint.js";
 import typescriptRules from "./providers/typescript.js";
-import { unicornRules, unicornRulesUnopinionated } from "./providers/unicorn.js";
+import {
+  unicornRules,
+  unicornRulesUnopinionated,
+} from "./providers/unicorn.js";
 import importRules from "./providers/importPlugin.js";
 import nextRules from "./providers/next.js";
 import reactHooksRules from "./providers/reactHooks.js";
